@@ -25,10 +25,6 @@ module.exports = {
   "themeConfig": {
     "mode": 'light',
     "subSidebar": 'auto',
-    "valineConfig": {
-      "appId": 'h6i7vXvVEK37fFFwb1DtMJ6W-gzGzoHsz',
-      "appKey": 'cYI3hypnGAI00CPuzhNfeY8Q',
-    },
     "nav": [
       {
         "text": "主页",
@@ -78,7 +74,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "wangxiaoer",
     "authorAvatar": "/avatar.jpg",
-    "record": "xxxx",
+    "record": "首页",
     "startYear": "2020"
   },
   "markdown": {
