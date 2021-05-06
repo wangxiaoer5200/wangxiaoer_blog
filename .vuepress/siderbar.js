@@ -10,9 +10,7 @@ const OTHER_PATH = '/blogs/other'
 
 
 module.exports = {
-  [JAVASCRIPT_PATH]: [
-    [createSideBarConfig('JS基础', JAVASCRIPT_PATH)]
-  ],
+  [JAVASCRIPT_PATH]: [createSideBarConfig('js基础', JAVASCRIPT_PATH)],
   [CSS_PATH]: [createSideBarConfig('CSS基础', CSS_PATH)],
   [PERFORM_PATH]: [createSideBarConfig('前端性能相关', PERFORM_PATH)],
   [ALGORITHM_PATH]: [createSideBarConfig('算法', ALGORITHM_PATH)],
