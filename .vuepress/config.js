@@ -25,6 +25,10 @@ module.exports = {
   "themeConfig": {
     "mode": 'light',
     "subSidebar": 'auto',
+    "valineConfig": {
+      "appId": 'aCSipIDPBNQTreNNNr4bT5R4-gzGzoHsz',
+      "appKey": 'zuQELzuRINaCxHgIozNrnwKO',
+    },
     "nav": [
       {
         "text": "主页",
@@ -36,6 +40,7 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
+      { "text": '留言板', "link": '/blogs/views/messageBoard.html', "icon": 'reco-suggestion' },
       {
         "text": "Contact",
         "icon": "reco-message",
@@ -46,7 +51,7 @@ module.exports = {
             "icon": "reco-github"
           }
         ]
-      }
+      },
     ],
     sidebar,
     "type": "blog",
